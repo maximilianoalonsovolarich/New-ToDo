@@ -7,18 +7,29 @@
     <title>Todo List</title>
   </head>
   <body>
-    <h1>Tareas</h1>
-    <form id="form">
-      <input
-        type="text"
-        class="input"
-        id="input"
-        placeholder="Ingrese su tarea"
-        autocomplete="off"
-      />
+   <h1>Tareas</h1>
+<form id="form">
+  <input
+    type="text"
+    class="input"
+    id="input"
+    placeholder="Ingrese su tarea"
+    autocomplete="off"
+  />
 
-      <ul class="todos" id="todos"></ul>
-    </form>
+  <ul class="todos" id="todos">
+    <li class="todo">
+      Tarea 1
+      <button class="delete">Eliminar</button>
+      <button class="complete">Completar</button>
+    </li>
+    <li class="todo">
+      Tarea 2
+      <button class="delete">Eliminar</button>
+      <button class="complete">Completar</button>
+    </li>
+  </ul>
+</form>
     <small
       >Presione click izquierdo para <strong>completar</strong> tarea. <br />
       Presione click derecho para <strong>eliminar</strong> tarea.</small
